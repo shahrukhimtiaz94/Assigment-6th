@@ -76,7 +76,9 @@ p {
         column-gap: 11px;
         margin-top: 4%;
     }
-
+    .box{
+        width: 26%;
+    }
     .box img {
         width: 100%;
     }
