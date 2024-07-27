@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    padding: 0;
+    /* background-color: #3c40c6; */
+
+}
+.container{
+    width: 100vw;
+    /* height: 100vh; */
+
+}
+header h1{
+    margin:0;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    height: 80px;
+    align-items: center;
+    color: black;
+ 
+}
+.subscribe-sec{
+    display: flex;
+    column-gap: 55px;
+}
+h4 {
+    margin-right: 11px;
+}
+h2.\32 nd-heading {
+    background: black;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 6px;
+    color: white;
+}
+
+h2{
+    font-size: 20px;
+}
+
+h2 i {
+    padding-right: 11px;
+}
+
+.parent-box {
+    display: flex;
+    justify-content: space-around;
+}
+
+.box{
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    height: 200px;
+    justify-content: end;
+    align-items: flex-end;
+    color: white;
+
+}
+
+span {
+    border: solid 1px;
+    padding: 9px 12px;
+    position: relative;
+    left: -130px;
+    top: -22px;
+    visibility: hidden;
+    color: white;
+}
+.box:hover span{
+    visibility: visible;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+
+@media screen and (max-width:1024px) {
+    span{
+        left: -70px;
+        top: 2px;
+        
+
+    }
+    .box{
+    height: 150px;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .parent-box {
+    display: flex;
+    flex-direction: column;
+    
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+        height:140px;
+    }
+    h2 {
+        margin: 1px 0px !important;
+    }
+    
+}
