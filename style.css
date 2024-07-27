@@ -79,8 +79,8 @@ p {
     .box{
         width: 26%;
     }
-    .box img {
-        width: 100%;
+    .box {
+     width: 26% !important;
     }
 }
 
